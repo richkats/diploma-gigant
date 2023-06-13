@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eed4215a-bf3d-4c39-b783-d6443c3df718" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gigant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ads.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+    </list>
+    <list id="774a91da-1d7d-4228-a228-c64b81db6884" name="Changes by Danil Petrenko" comment="" />
+    <list id="9335093b-158b-4d4f-89ab-edc8096f0908" name="Changes by elicot" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Pages/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ads.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+    </list>
+    <list id="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" name="Changes by kizir" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Pages/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ads.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/add.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/components/Header.js">
+      <ranges>
+        <range start1="16" end1="17" start2="16" end2="17" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="38" end1="39" start2="38" end2="39" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="41" end1="42" start2="41" end2="41" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="43" end1="44" start2="42" end2="43" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="62" end1="62" start2="61" end2="62" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Pages/Add.js">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="4" changelist="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" />
+        <range start1="10" end1="10" start2="10" end2="11" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="11" end1="14" start2="12" end2="15" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="19" end1="19" start2="20" end2="27" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="20" end1="21" start2="28" end2="43" changelist="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" />
+        <range start1="22" end1="26" start2="44" end2="55" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="27" end1="30" start2="56" end2="59" changelist="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" />
+        <range start1="31" end1="35" start2="60" end2="63" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="36" end1="37" start2="64" end2="130" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="38" end1="55" start2="131" end2="131" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="57" end1="66" start2="133" end2="135" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="67" end1="102" start2="136" end2="168" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="104" end1="105" start2="170" end2="171" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="106" end1="106" start2="172" end2="174" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="107" end1="117" start2="175" end2="216" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="119" end1="120" start2="218" end2="219" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="121" end1="121" start2="220" end2="222" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="122" end1="147" start2="223" end2="289" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="148" end1="149" start2="290" end2="290" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="154" end1="155" start2="295" end2="298" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/add.css">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="4" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="8" end1="9" start2="8" end2="22" changelist="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" />
+        <range start1="10" end1="10" start2="23" end2="24" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="12" end1="13" start2="26" end2="26" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="16" end1="17" start2="29" end2="30" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="31" end1="32" start2="44" end2="44" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="36" end1="37" start2="48" end2="49" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="38" end1="38" start2="50" end2="51" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="41" end1="42" start2="54" end2="54" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="44" end1="45" start2="56" end2="56" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="54" end1="91" start2="65" end2="65" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="103" end1="103" start2="77" end2="327" changelist="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Pages/ads.js">
+      <ranges>
+        <range start1="0" end1="3" start2="0" end2="1" changelist="63e07e5e-c0ce-4ecf-8b1c-025fc46d7593" />
+        <range start1="4" end1="4" start2="2" end2="8" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="5" end1="5" start2="9" end2="11" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="6" end1="7" start2="12" end2="13" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="9" end1="10" start2="15" end2="16" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="15" end1="16" start2="21" end2="22" changelist="9335093b-158b-4d4f-89ab-edc8096f0908" />
+        <range start1="18" end1="24" start2="24" end2="25" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="25" end1="31" start2="26" end2="35" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="32" end1="53" start2="36" end2="46" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="54" end1="154" start2="47" end2="58" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="155" end1="155" start2="59" end2="125" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="156" end1="341" start2="126" end2="157" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="342" end1="343" start2="158" end2="158" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="344" end1="345" start2="159" end2="171" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+        <range start1="349" end1="349" start2="175" end2="176" changelist="eed4215a-bf3d-4c39-b783-d6443c3df718" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectId" id="2QOJHumxup88VacO0AzsDCXXUqg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Pages" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\katsu\Desktop\github\gigant-\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\katsu\Desktop\github\gigant-\src\Pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eed4215a-bf3d-4c39-b783-d6443c3df718" name="Default Changelist" comment="" />
+      <created>1685218612712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685218612712</updated>
+      <workItem from="1685218617944" duration="1459000" />
+      <workItem from="1685274617485" duration="187000" />
+      <workItem from="1685804984643" duration="4338000" />
+      <workItem from="1686324250602" duration="31236000" />
+      <workItem from="1686518201863" duration="15028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
