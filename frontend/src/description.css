@@ -58,6 +58,22 @@
     font-weight: 400;
     font-size: 18px;
 }
+.text_description_regular_genre{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.text_description_regular_bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 .genre_text_description{
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;

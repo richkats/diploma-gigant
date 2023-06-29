@@ -120,22 +120,21 @@
 
 .load {
     width: 100px;
+    margin: 300px auto 0;
     height: 100px;
-    margin: 110px auto 0;
-    border:solid 10px #bcd9ff;
+    border: solid 10px #bcd9ff;
     border-radius: 50%;
     border-right-color: transparent;
     border-bottom-color: transparent;
     -webkit-transition: all 0.5s ease-in;
-    -webkit-animation-name:             rotate;
-    -webkit-animation-duration:         1.0s;
-    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1.0s;
+    -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-
     transition: all 0.5s ease-in;
-    animation-name:             rotate;
-    animation-duration:         1.0s;
-    animation-iteration-count:  infinite;
+    animation-name: rotate;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .item{
@@ -150,13 +149,33 @@
     .wrapper {
         grid-template-columns: repeat(2, 50%);
     }
+    .popup{
+        grid-template-columns: repeat(5, max-content);
+        row-gap: 5px;
+    }
 }
-
+@media (min-width: 1560px) {
+    .popup{
+        grid-template-columns: repeat(6, max-content);
+        row-gap: 5px;
+    }
+}
 @media (max-width: 1050px) {
     .wrapper {
         grid-template-columns: 100%;
     }
+    .popup{
+        grid-template-columns: repeat(3, max-content);
+        row-gap: 5px;
+    }
 }
+@media (max-width: 1200px) {
+    .popup{
+        grid-template-columns: repeat(4, max-content);
+        row-gap: 5px;
+    }
+}
+
 .bg_light{
     background-color: #FFFFFF;
 }
@@ -211,4 +230,23 @@
 }
 .background_hidden{
     display: none;
+}
+.popup_hidden{
+    display: none;
+}
+.popup{
+    display: grid;
+    position: absolute;
+    background-color: white;
+    margin-top: 70px;
+    border: 1px #e3e3e3 solid;
+    height: fit-content;
+    padding: 10px;
+    column-gap: 50px;
+    z-index: 100;
+    border-radius: 9px;
+}
+.loading{
+    display: grid;
+    justify-items: center
 }
