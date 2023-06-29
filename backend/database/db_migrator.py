@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from .credentials import *
-
+from credentials import *
+from playhouse.shortcuts import model_to_dict
 from contextvars import ContextVar
 import peewee as pw
 from playhouse.cockroachdb import CockroachDatabase, ArrayField
+import db_manager as old_db
+import schemas
 
 db_state_default = {"closed": None, "conn": None, "ctx": None, "transactions": None}
 db_state = ContextVar("db_state", default=db_state_default.copy())
@@ -134,13 +136,40 @@ def get_all_users():
 
 
 if __name__ == "__main__":
-    genres = Genre.select()
-    for genre in genres:
-        if genre.id not in [873356217396559873, 873356218721632257, 873356220241543169, 873356222107385857, 873357818664189953, 873357820106440705, 873360477850533889, 873360479202770945, 873440782150893569,873440783317663745,873440784667738113]:
-            q = Genre.delete().where(Genre.id == genre.id)
-            q.execute()
+    new_tables = [User, Requirement, Genre, Artist, Venue, Artist_Ad, Venue_Ad, Advertisement]
+    db_schemas = [schemas.User, schemas.Requirement, schemas.Genre, schemas.Artist, schemas.Venue, schemas.ArtistAd, schemas.VenueAd, schemas.Advertisement]
+    old_tables = [old_db.User, old_db.Requirement, old_db.Genre, old_db.Artist, old_db.Venue, old_db.Artist_Ad, old_db.Venue_Ad, old_db.Advertisement]
+    for i, table in enumerate(old_tables):
+        def setter(item):
+            model_dict = model_to_dict(item)
+            model_keys = list(model_dict.keys())
+            model_values = list(model_dict.values())
+            for j, value in enumerate(model_values):
+                if type(value) is dict:
+                    # print(model_values[j])
+                    model_values[j] = value["id"]
+            new_model = {}
+            for j, value in enumerate(model_values):
+                new_model[model_keys[j]] = value
+            # new_model = dict.fromkeys(model_keys, model_values)
+            print(new_model)
+            new_instance = new_tables[i](**new_model)
+            print(new_instance)
+            new_instance.save(force_insert=True)
+            db.commit()
+
+        old_instances = list(table.select())
+        for old_instance in old_instances:
+            # print(model_to_dict(old_instance))
+            # new_instance = new_tables[i](**model_to_dict(old_instance))
+            # new_instance.save()
+            setter(old_instance)
+    # print(Genre.get())
+
+    db.close()
 
     # create_tables()
+
     # with db:
     #     db.drop_tables([Event])
     #     db.drop_tables([Venue, Venue_Ad, Artist_Ad, Artist])

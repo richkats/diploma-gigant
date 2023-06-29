@@ -226,7 +226,7 @@ def artist_ad_processer(props):
         artist = create_artist(schemas.ArtistCreate.parse_obj(artist_dict))
     # solution 1 (easy)
     genre_list = []
-    all_genres = get_genres()
+    all_genres = [genre.name for genre in get_genres()]
     for genre in props.genres:
         if genre not in all_genres:
             genre = create_genre(schemas.GenreCreate.parse_obj({"name": genre}))
@@ -397,7 +397,7 @@ def venue_ad_processer(props):
         venue = create_venue(schemas.VenueCreate.parse_obj(venue_dict))
     # solution 1 (easy)
     genre_list = []
-    all_genres = get_genres()
+    all_genres = [genre.name for genre in get_genres()]
     for genre in props.genres:
         if genre not in all_genres:
             genre = create_genre(schemas.GenreCreate.parse_obj({"name": genre}))
